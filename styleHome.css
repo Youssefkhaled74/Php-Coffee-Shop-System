@@ -1,0 +1,32 @@
+.countair h1{
+    color: aqua;
+    font-weight: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.countair{
+    margin-top: 300px;
+}
+.countair a{
+    /* display: flex; */
+    /* justify-content: center; */
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-weight: 700;
+    display: inline;
+    justify-content: space-between;
+    transform: 2s;
+    padding: 10px 10px;
+    margin-left: 70px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.countair .links{
+    margin-top: 30px;
+}
+.countair a:hover{
+    transition: ease-in-out 0.5s;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.5);
+}
